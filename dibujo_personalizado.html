@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con canvas</title>
+    <style type="text/css">
+        body {
+         background-color: rgb(150, 23, 82);
+         color: wheat;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+ </head>
+ <body>
+    <h1>Dibujo en canvas</h1>
+    <p> 
+        ¿Cuantas lineas quieres en el extremo inferior izquierdo?
+        <input type="text" id= "texto_lineas1"/> 
+    </br>
+
+        ¿Cuantas lineas quieres en el extremo inferior derecho?
+        <input type="text" id= "texto_lineas2"/>  
+    </br>
+    ¿Cuantas lineas quieres en el extremo superior derecho?
+    <input type="text" id= "texto_lineas3"/>
+    </br>
+    ¿Cuantas lineas quieres en el extremo superior izquierdo?
+    <input type="text" id= "texto_lineas4"/>
+    </br>
+    <input type="button" value="A darle!" id= "botoncito"/>
+    </p>
+    
+    <canvas  width="300" height="300" id="dibujito"> </canvas> 
+    <p>Así queda tu dibujo<br>
+    <input type="button" value="Limpiar" id="boton_limpiar" />  
+    </p>
+    
+    <script src="dibujo_personalizado.js"></script>
+
+    
+ </body>
+</html>
