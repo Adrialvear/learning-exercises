@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mukta:wght@100;200;300;400;500;600;800&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+
+h1{
+    text-align: center;
+    background-color: rgb(44, 23, 119) ;
+    color:antiquewhite;
+    padding: 20px;
+    font-family: 'Satisfy', handwriting;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Satisfy', handwriting;
+}
+
+h2{
+    font-family: 'Satisfy', handwriting;
+    padding-bottom: 20px;
+}
+
+.textos, q {
+    font-family: 'Mukta', sans-serif;
+  }
+
+
+
+nav ul {
+    background-color: #f2bfe6;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(44, 23, 119);
+    padding: 10px;
+    width: 150px;
+    font-family: 'Satisfy', handwriting;
+}
+
+nav li:hover {
+    background-color: antiquewhite; 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.informacion {
+    display: flex;
+    margin: 60px;
+}
+
+.contenidos-de-menu{
+    width: 75%;
+    
+}
+
+.contenidos-de-menu section {
+    margin-bottom: 40px;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+
+.quote {
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rebeccapurple;
+    background-color: #f2bfe6;
+    
+    
+    
+    
+}
+
+.quote q {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+iframe {
+    padding-bottom: 20px;
+}
