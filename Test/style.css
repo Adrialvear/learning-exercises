@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+header {
+    text-align: left;
+    padding: 32px;
+    background-color: #a80893;
+    color: #fff;
+    border-bottom: 4px solid #7edcf8;
+  }
+
+  label {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  label input{
+margin-left: 5px;
+  }
+
+  button{
+    margin-right: 50px;
+  }
+
+section {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+section table{
+    width: calc(33.33% - 20px); 
+    margin: 10px;  
+}
+
+table {
+    border: 3px solid purple;
+     padding-top: 15px; 
+    padding-bottom: 15px;
+    
+   
+}
+
+section table td {
+    padding-left: 50px;
+    
+  }
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px 20px;
+    object-fit: cover;
+    margin: 5px;
+
+} 
+
