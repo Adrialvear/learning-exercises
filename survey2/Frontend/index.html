@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Survey</title>
+</head>
+
+<body>
+  <h1 id="title">goReise Umfrage Formula</h1>
+  <p id="description" class="description">Wir sind an Ihrer Meinung interessiert! bitte helfen Sie uns, Ihre Erfarungen
+    zu verbessern</p>
+  <div class="container">
+    <form id="myForm" method="post" action=''>
+      <fieldset>
+        <label for="name">Name: <input id="name" name="name" type="text" placeholder="Ihren Namen eingeben" required
+            autocomplete="name" /></label>
+        <label for="email">Email: <input id="email" name="email" type="email" placeholder="Ihre Email eingeben" required
+            autocomplete="email" /></label>
+        <label for="number">Alter: <input id="number" name="number" type="number" min="13" max="120" placeholder="Alter"
+            required /></label>
+
+        <label for="dropdown" class="question">Welche Option beschreibt Ihre derzeitige Rolle am besten?</label>
+        <select id="dropdown" name="role" required="">
+          <option disabled="" selected="" value="">(wählen Sie eine)</option>
+          <option value="1">Student/in</option>
+          <option value="2">Vollzeit Job</option>
+          <option value="3">Nebenjob</option>
+          <option value="4">Andere Option</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <p class="travel-question">Wie reisen Sie am liebsten?</p>
+        <label for="allein-option"><input id="allein-option" value="allein-option" type="radio" name="styletravel-type"
+            class="inline" checked />Allein</label>
+        <label for="gruppe-option"><input id="gruppe-option" value="gruppe-option" type="radio" name="styletravel-type"
+            class="inline" />In einer Gruppe</label>
+        <label for="zweit-option"><input id="zweit-option" value="zweit-option" type="radio" name="styletravel-type"
+            class="inline" />Zu zweit</label>
+        <p class="travel-question">Was möchten Sie uns für Ihre Reise empfhelen?</p>
+        <label for="hotel">
+          <input id="hotel" value="hotel" type="checkbox" name="recomendation1" class="inline" />Hotels
+        </label>
+        <label for="restaurant">
+          <input id="restaurant" value="restaurant" type="checkbox" name="recomendation2" class="inline" />Restaurants
+        </label>
+        <label for="bar">
+          <input id="bar" value="bar" type="checkbox" name="recomendation3" class="inline" />Bars
+        </label>
+        <label for="tourist-place">
+          <input id="tourist-place" value="tourist-place" type="checkbox" name="recomendation4"
+            class="inline" />Sehenswürdigkeiten
+        </label>
+        <label for="route">
+          <input id="route" value="route" type="checkbox" name="recomendation5" class="inline" />Reisenrouten
+        </label>
+        <label for="event">
+          <input id="event" value="event" type="checkbox" name="recomendation6" class="inline" />Veranstaltungen
+        </label>
+        <label for="shop">
+          <input id="shop" value="shop" type="checkbox" name="recomendation7" class="inline" />Geschäfte
+        </label>
+        <label class="travel-question" for="destiny">Wohin würden Sie gerne reisen?</label>
+        <select name="destiny" id="destiny" required="">
+          <option value="">(wählen Sie eine)</option>
+          <option value="1">Barcelona</option>
+          <option value="2">Berlin</option>
+          <option value="3">Florenz</option>
+          <option value="5">Amsterdam</option>
+          <option value="6">Zurich</option>
+          <option value="7">Rom</option>
+          <option value="8">Paris</option>
+        </select>
+
+      </fieldset>
+      <fieldset>
+
+        <label for="comment">Haben Sie einen Kommentar oder eine Anregung?
+          <textarea id="comment" name="comment" rows="6" cols="30"
+            placeholder="Geben Sie Ihren Kommentar hier ein..."></textarea>
+        </label>
+      </fieldset>
+      <input id="btnSubmit" type="submit" value="Submit" />
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
