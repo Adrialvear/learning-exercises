@@ -1,6 +1,6 @@
 README
 
-Deutsch
+Deutsch: 
 Dieser Code besteht aus einer Umfrage zu Reisen in HTML mit Frontend- und Backend-Funktionalität.
 
 Die Datei index.html enthält das Reiseumfrageformular in HTML.
@@ -9,7 +9,7 @@ Die Datei frontend.js ist eine JavaScript-Datei, die die Formulardaten sammelt, 
 
 Die Datei server.js ist ein Express.js-Server, der die Formulardaten empfängt und eine Dankesnachricht zurückgibt.
 
-English
+English:
 This code consists of a travel survey in HTML with frontend and backend functionality.
 
 The index.html file contains the travel survey form in HTML.
@@ -18,7 +18,7 @@ The frontend.js file is a JavaScript file that collects the form data, sends it 
 
 The server.js file is an Express.js server that receives the form data and returns a thank you message.
 
-Español
+Español:
 Este código consiste en una encuesta de viajes en HTML con funcionalidad frontend y backend.
 
 El archivo index.html contiene el formulario de encuesta de viajes en HTML.
