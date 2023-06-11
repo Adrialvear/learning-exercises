@@ -18,6 +18,15 @@ The frontend.js file is a JavaScript file that collects the form data, sends it 
 
 The server.js file is an Express.js server that receives the form data and returns a thank you message.
 
+Projekt Setup Backend
+Führe diesen Befehl im Terminal einmalig aus um alle notwendigen Dependencies zu installieren.
+
+npm install
+Starte WebServer für Development
+npm run start
+License
+MIT
+
 Español:
 Este código consiste en una encuesta de viajes en HTML con funcionalidad frontend y backend.
 
