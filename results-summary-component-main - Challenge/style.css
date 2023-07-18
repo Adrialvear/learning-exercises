@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1440px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+@media (max-width: 700px) {
+  .score{
+    order: 1;
+  }
+
+  .summary {
+    order: 2;
+  
+  }
+
+  .attribution {
+    order: 3;
+    
+  }
+}
+
+
+section {
+
+  width: 250px;
+  height: 330px;
+
+}
+
+.score {
+
+  border-radius: 30px;
+  background: linear-gradient(0deg, hsl(238, 92%, 43%), hsl(253, 100%, 68%));
+  text-align: center;
+
+}
+
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 5px 15px 30px rgb(183, 192, 245, 0.5);
+  padding-left: 2%;
+ 
+}
+
+.titleResult {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 8%;
+  padding-bottom: 10%;
+  font-size: 1.2em;
+  
+}
+
+.scoreResult {
+  font-weight: 800;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  font-size: 3.5em;
+}
+
+.text {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+}
+
+h2 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  padding-top: 10%;
+
+}
+
+.circle {
+  width: 125px;
+  height: 125px;
+  /*  margin-left: 25%; */
+  background: radial-gradient(hsla(241, 72%, 46%, 0) 5%, hsla(256, 72%, 46%, 1) 66%);
+  border-radius: 50%;
+  padding: 20px;
+  margin: auto;
+
+
+}
+
+input {
+  
+  margin-top: auto;
+  margin-bottom: 15%;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(221, 100%, 96%);
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  width: 85%;
+  height: 12%;
+  border-radius: 150px;
+ 
+  
+}
+
+
+.titleSummary {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  font-size: 1.2em;
+  padding-top: 8%;
+  padding-bottom: 10%;
+
+}
+ div{
+  width: 85%;
+  padding: 3px;
+  border-radius: 6px 6px 6px 6px;
+  justify-content: center;
+  
+ }
+article{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.category1, .category2, .category3, .category4{
+  align-items: center;
+  display: flex;
+}
+
+.category1 .reaction,
+.category2 .memory,
+.category3 .verbal,
+.category4 .visual {
+  flex-grow: 1;
+}
+
+
+.reaction {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(0, 100%, 67%);
+  
+}
+
+.memory {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(39, 100%, 56%);
+  
+}
+
+.verbal {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(166, 100%, 37%);
+
+}
+
+.visual {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  color: hsl(234, 85%, 45%);
+ 
+}
+
+
+.category1 {
+  background-color: hsla(0, 100%, 67%, 0.08);
+ 
+}
+
+.category2 {
+  background-color: hsla(39, 100%, 56%, 0.08);
+ 
+}
+
+.category3 {
+  background-color: hsla(166, 100%, 37%, 0.08);
+  
+}
+
+.category4 {
+  background-color: hsla(234, 85%, 45%, 0.08);
+  
+}
+
+ img{
+  padding: 5px;
+  transform: scale(0.8); 
+}
+
+
+.category1 .reaction,
+.category2 .memory,
+.category3 .verbal,
+.category4 .visual {
+  flex-grow: 1;
+}
+
+.category1 .scoreCategory,
+.category2 .scoreCategory,
+.category3 .scoreCategory,
+.category4 .scoreCategory {
+  flex-grow: -1;
+}
+
+.category1 .maxScore,
+.category2 .maxScore,
+.category3 .maxScore,
+.category4 .maxScore {
+  flex-grow: 0;
+}
+
+
+
+.scoreCategory {
+  
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+  
+}
+
+.maxScore {
+  
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 800;
+  color: hsl(241, 100%, 89%);
+  padding: 5px; 
+  
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
